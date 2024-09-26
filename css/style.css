@@ -184,6 +184,24 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hero-header-villa-sunset{
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/Sunset\ Villa\ 3.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-header-villa-montana{
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/Villa\ Montana1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-header-villa-arizona{
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/Villa\ Arizona\ 7.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
