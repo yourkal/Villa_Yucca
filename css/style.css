@@ -499,3 +499,20 @@
     z-index: 1000;
   }
   
+  .img-fluid {
+    object-fit: contain; /* Gambar akan sepenuhnya terlihat tanpa terpotong */
+  }
+
+  .position-relative {
+    height: 100%; /* Pastikan kolom bisa menampung gambar secara proporsional */
+  }
+
+  @media (max-width: 768px) {
+    .img-fluid {
+      object-fit: contain; /* Menggunakan contain pada layar kecil */
+    }
+  }
+  
+  
+     
+  
