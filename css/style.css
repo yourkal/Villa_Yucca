@@ -499,25 +499,25 @@
     z-index: 1000;
   }
   
+ .img-fluid {
+  width: 100%; /* Gambar memenuhi lebar elemen induk */
+  height: auto; /* Jaga rasio aspek gambar */
+}
+
+@media (max-width: 768px) {
   .img-fluid {
-    width: 100%; /* Gambar memenuhi lebar elemen induk */
-    height: auto; /* Jaga rasio aspek gambar */
+    width: 70%; /* Mengatur lebar gambar lebih kecil untuk tampilan responsif */
+    height: auto; /* Pertahankan rasio aspek */
+    margin: 0 auto; /* Pusatkan gambar */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok untuk pemusatan */
   }
-  
-  @media (max-width: 768px) {
-    .img-fluid {
-      width: 50%; /* Mengatur lebar gambar lebih kecil untuk tampilan responsif */
-      height: auto; /* Pertahankan rasio aspek */
-      margin: 0 auto; /* Pusatkan gambar */
-      display: block; /* Pastikan gambar ditampilkan sebagai blok untuk pemusatan */
-    }
+}
+
+@media (max-width: 576px) {
+  .img-fluid {
+    width: 60%; /* Ukuran lebih kecil lagi untuk layar yang lebih kecil */
   }
-  
-  @media (max-width: 576px) {
-    .img-fluid {
-      width: 60%; /* Ukuran lebih kecil lagi untuk layar yang lebih kecil */
-    }
-  }
+}
   
   
      
