@@ -500,8 +500,10 @@
   }
   
   .img-fluid {
-    object-fit: contain; /* Gambar akan sepenuhnya terlihat tanpa terpotong */
+    width: 100%; /* Gambar memenuhi lebar elemen induk */
+    height: auto; /* Jaga rasio aspek gambar */
   }
+  
 
   .position-relative {
     height: 100%; /* Pastikan kolom bisa menampung gambar secara proporsional */
@@ -509,7 +511,10 @@
 
   @media (max-width: 768px) {
     .img-fluid {
-      object-fit: contain; /* Menggunakan contain pada layar kecil */
+      width: 30%; /* Atur lebar gambar lebih kecil pada tampilan responsif */
+      height: auto; /* Pertahankan rasio aspek */
+      margin: 0 auto; /* Pusatkan gambar */
+      display: block; /* Pastikan gambar ditampilkan sebagai blok untuk pemusatan */
     }
   }
   
